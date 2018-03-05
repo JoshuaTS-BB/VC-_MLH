@@ -1,0 +1,47 @@
+html {height: 100%}
+body {margin: 0; height: 100%; 
+			background: url(library.jpg) repeat center center fixed;
+			-webkit-background-size: cover; -moz-background-size: cover;
+			-o-background-size: cover; background-size: cover;}
+
+#header {position: fixed; top: 0; left: 0; width: 100%; height: 2.1em;
+			padding-left: 5%; padding-right: 5%; padding-top: 0.9em;
+			background-color: #ECECEC; box-shadow: 0 5px 3px #007569;}
+
+#header h1 {font-size: 1.2em; display: inline; margin: 0.9em;}
+
+#header #navigation {margin-right: 10%; float: right;}
+
+#header #navigation a {text-decoration: none; color: black; 
+						cursor: pointer; margin-left: 50px}
+
+#main_heading {margin-left: 30%; margin-top: 25%; margin-bottom: 35%; padding: 1%; width: 40%; background-color: #b4b0b0cc;}
+#main_heading img {width: 100%;}
+
+.parallax {margin-top: 3em; width:100%; height: 100%;}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+.content {margin-left: 5%; margin-right: 5%; 
+			padding-left: 5%; padding-right: 5%; padding-top: 3em;
+			padding-bottom: 3em; margin-bottom: 6em;}
+.content h2 {font-size: 3em;}
+.content p {font-size: 1.3em;}
+.content form input {margin-top: 1em;}
+
+#about {background-color: #EAFEFBE6}
+#about h2 {color: #E40011;}
+
+#register {background-color: #9EED91E6}
+#register h2 {color: #005047;}
+
+#die {background-color: #FEE7BDE6}
+#die h2 {color: #31236B;}
+
+#sponsors {background-color: #FFC2E9E6;}
+#sponsors h2 {color: #A2000C;}
+#sponsors img {width: 15%; margin: 1%;}
